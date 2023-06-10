@@ -214,3 +214,39 @@ html {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
+
+@media screen and (max-width: 900px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container-img {
+        width: 50vw;
+    }
+
+    .container-box {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario-img {
+        width: 50vw;
+    }
+
+    .dispositivos-lista {
+        display: block;
+    }
+
+    .rodape-lista {
+        display: block;
+    }
+
+    .lista-link {
+        margin-bottom: 1em;
+    }
+}
